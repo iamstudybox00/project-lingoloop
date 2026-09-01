@@ -17,6 +17,7 @@
 - http://127.0.0.1:8000/docs 
 
 # 프론트엔드 세팅
-1. cd frontend 로 폴더이동
-2. npm install 로 node_modules 설치
-3. npm run dev 로 실행 기본 http://localhost:5173/
+1. nodejs-bin==24.20.0
+2. cd frontend 로 폴더이동
+3. npm install 로 node_modules 설치
+4. npm run dev 로 실행 기본 http://localhost:5173/
