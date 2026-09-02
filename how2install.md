@@ -2,15 +2,16 @@
 
 1. python 3.12.7 설치
 2. cd backend 하여 백엔드로 Terminal 이동(PowerShell말고 CMD로)
-3. python -m venv .venv 실행하여 CMD 앞쪽에 (.venv)가 떠있는지 확인
-4. .venv\Scripts\activate 이동
+3. python -m venv .venv 실행
+4. .venv\Scripts\activate 실행하여 CMD 앞쪽에 (.venv)가 떠있는지 확인
 5. pip install -r requirements.txt 해서 의존성 설치
 6. pip install fastapi uvicorn로 uvicorn 깔기
 7. uvicorn app.main:app --reload 해서 시작
 
 # 이후 가상환경 들어가기
-1. python -m venv .venv
-2. uvicorn app.main:app --reload 입력하여 서버 실행
+1. cd backend
+2. .venv\Scripts\activate
+3. uvicorn app.main:app --reload 입력하여 서버 실행
 
 # Swagger(프론트엔드 없이 백엔드 API 테스트용)
 - uvicorn app.main:app --reload 입력하여 서버 실행
